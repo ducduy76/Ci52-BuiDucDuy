@@ -1,0 +1,45 @@
+.answer{
+    display:flex;
+}
+#troll{
+    text-align: center;
+}
+#question{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height:400px;
+    margin:0 auto;
+    background-color:rgb(233, 124, 142);
+    color:white;
+    border-radius: 10px;
+}
+#answer{
+    margin-top:10px;
+}
+#yes{width:100px;
+    height:100px;
+    background-color: red;
+    color:yellow
+}
+#no{
+    width:100px;
+    height:100px;
+    background-color: #333;
+    color:#444;
+}
+#no:hover{
+    width:100px;
+        height:100px;
+        background-color: red;
+        color:yellow
+    
+}
+#answer{display: flex;
+    justify-content: space-between;
+}
+.revet{
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        h1{
+            color:red
+        }
+    </style>
+</head>
+<body>
+ <meme-container name="naf ni gi do" image="photo" date-modified="10/10/1001" description="hahaha"></meme-container>
+ <meme-container name="naf ni gi do" image="photo" date-modified="10/10/1001" description="hahaha"></meme-container>
+ <meme-container name="naf ni gi do" image="photo" date-modified="10/10/1001" description="hahaha"></meme-container>
+
+</body>
+<template id="meme-container-template">
+    <style>
+        .meme-photo{
+            width:400px;
+            height:400px
+        }
+        .meme-name{
+            color:red;
+            font-size: 20px;;
+        }
+    </style>
+    <div class="meme-container">                                           
+        <div class="meme-name"> na ni </div>
+        <img src="https://i.pinimg.com/280x280_RS/99/0e/a2/990ea2df95d7a03b897a4a7b4d109cb4.jpg" alt="" class="meme-photo">
+        <div class="meme-date-modified"></div>
+        <div class="meme-descriiption">day la con cho sua go go</div>
+    </div>
+</template>
+<script src="./app.js"type="module"></script>
+</html>
